@@ -1,7 +1,7 @@
 #!/bin/bash
 
-order_lineitems_hawq=`psql -Atc "select count(*) from retail_demo.order_lineitems_hawq;"`   
-orders_hawq=`psql -Atc "select count(*) from retail_demo.orders_hawq;"`         
+order_lineitems_hawq=`psql -d hawqgsdb -Atc "select count(*) from retail_demo.order_lineitems_hawq;"`
+orders_hawq=`psql -d hawqgsdb -Atc "select count(*) from retail_demo.orders_hawq;"`
 
 echo "							    "
 echo "        Table Name           |    Count "
