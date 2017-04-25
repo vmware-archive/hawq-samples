@@ -1,6 +1,6 @@
 # HAWQ Samples Repository
 
-The `hawq-samples` repository includes the sample data set and scripts referenced by the "Getting Started With HAWQ" tutorial. This tutorial is currently accessible from the [Apache HAWQ \(Incubating\)](http://hawq.incubator.apache.org/docs/userguide/2.2.0.0-incubating/overview/HAWQOverview.html) and [Pivotal HDB](http://hdb.docs.pivotal.io/220/hdb/index.html) documentation sets. 
+The `hawq-samples` repository includes the sample data set and scripts referenced by the "Getting Started With HAWQ" tutorial. This tutorial is currently accessible from the [Pivotal HDB](http://hdb.docs.pivotal.io/220/hawq/tutorial/overview.html) documentation set. 
 
 This repository may be extended in the future to include other HAWQ-related tutorials, sample code, demos, etc.
 
